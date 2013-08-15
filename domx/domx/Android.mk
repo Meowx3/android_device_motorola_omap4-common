@@ -28,7 +28,7 @@ LOCAL_SHARED_LIBRARIES := \
     liblog \
     libion_ti
 
-<!-- LOCAL_MODULE:= libdomx
-LOCAL_MODULE_TAGS:= optional -->
+LOCAL_MODULE:= libdomx
+LOCAL_MODULE_TAGS:= optional
 
 include $(BUILD_SHARED_LIBRARY)
